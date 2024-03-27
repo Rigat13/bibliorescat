@@ -25,9 +25,9 @@ Els escenaris segueixen el mateix estil. Reprodueixen edificis reals però en re
 
 Exemples de referència:
 
-[[https://github.com/Rigat13/bibliorescat/blob/main/documents/imatges/captura4.png|alt=En Joanet parlant amb el policia al joc Summoning the Night or not]]
-[[https://github.com/Rigat13/bibliorescat/blob/main/documents/imatges/captura5.png|alt=En Joanet parlant amb la bibliotecària al joc _Summoning the Night or not_]]
-[[https://github.com/Rigat13/bibliorescat/blob/main/documents/imatges/baseCity_map.png|alt=El mapa del poble del joc _Summoning the Night or not_]]
+![En Joanet parlant amb el policia al joc _Summoning the Night or not_](imatges/captura4.png)
+![En Joanet parlant amb la bibliotecària al joc _Summoning the Night or not_](imatges/captura5.png)
+![El mapa del poble del joc _Summoning the Night or not_](imatges/baseCity_map.png)
 
 ## 5. Mecàniques i controls
 - Moviment del personatge amb el teclat.
