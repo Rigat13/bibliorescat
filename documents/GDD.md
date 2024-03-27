@@ -24,11 +24,10 @@ Els personatges són capgrossos i dibuixats en estil de dibuixos animats, amb om
 Els escenaris segueixen el mateix estil. Reprodueixen edificis reals però en redueixen els detalls i l'escala.
 
 Exemples de referència:
-<div>
-  <img height="150" src="D:\TECNOCAMPUS\5_CINQUE\z_Varis\TallerXnergic_Unity2D_Biblioteques\bibliorescat\documents\imatges\captura4.png"/>
-  <img height="150" src="D:\TECNOCAMPUS\5_CINQUE\z_Varis\TallerXnergic_Unity2D_Biblioteques\bibliorescat\documents\imatges\captura5.png"/>
-</div>
-<img height="300" src="D:\TECNOCAMPUS\5_CINQUE\z_Varis\TallerXnergic_Unity2D_Biblioteques\bibliorescat\documents\imatges\baseCity_map.png"/>
+
+[[https://github.com/Rigat13/bibliorescat/blob/main/documents/imatges/captura4.png|alt=En Joanet parlant amb el policia al joc Summoning the Night or not]]
+[[https://github.com/Rigat13/bibliorescat/blob/main/documents/imatges/captura5.png|alt=En Joanet parlant amb la bibliotecària al joc _Summoning the Night or not_]]
+[[https://github.com/Rigat13/bibliorescat/blob/main/documents/imatges/baseCity_map.png|alt=El mapa del poble del joc _Summoning the Night or not_]]
 
 ## 5. Mecàniques i controls
 - Moviment del personatge amb el teclat.
