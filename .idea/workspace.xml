@@ -38,6 +38,10 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\TECNOCAMPUS\5_CINQUE\z_Varis\TallerXnergic_Unity2D_Biblioteques\bibliorescat\documents\imatges" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TECNOCAMPUS\5_CINQUE\z_Varis\TallerXnergic_Unity2D_Biblioteques\bibliorescat\BiblioRescat\Assets\Scripts\Objectes" />
+      <recent name="D:\TECNOCAMPUS\5_CINQUE\z_Varis\TallerXnergic_Unity2D_Biblioteques\bibliorescat\BiblioRescat\Assets\Scripts\Personatge" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
@@ -81,7 +85,8 @@
       <option name="presentableId" value="Default" />
       <updated>1711530137089</updated>
       <workItem from="1711530144200" duration="4719000" />
-      <workItem from="1711551409254" duration="2815000" />
+      <workItem from="1711551409254" duration="3412000" />
+      <workItem from="1712061844925" duration="1934000" />
     </task>
     <servers />
   </component>
