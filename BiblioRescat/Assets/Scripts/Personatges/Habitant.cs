@@ -4,15 +4,22 @@ using UnityEngine;
 
 public class Habitant : MonoBehaviour
 {
+    [Header("Moviment")]
     public float velocitat = 0.1f;
     public Transform [] puntsRecorregut;
     public GestorAnimacionsPersonatge gestorAnimacionsPersonatge;
-
     private int puntActual = 0;
+
+    [Header("Missatge")]
+    public GameObject prefabMissatge;
+    public string textMissatge;
+    public float margeVerticalMissatge = 2f;
+    public float margeHoritzontalMissatge = 0f;
 
     void Start()
     {
-        StartCoroutine(PassejarHabitant());
+        StartCoroutine(PassejarHabitant()); // Comença a MOURE l'habitant
+        CrearMissatge(); // Crea un MISSATGE per a l'habitant
     }
 
     private IEnumerator PassejarHabitant()
@@ -39,13 +46,21 @@ public class Habitant : MonoBehaviour
 
     private void MoureHabitant(Transform puntRecorregut)
     {
+        // Es mou l'habitant cap al punt, amb la velocitat indicada
         transform.position = Vector3.MoveTowards(transform.position, puntRecorregut.position, velocitat);
     }
 
     private void AnimarHabitant(Transform puntRecorregut)
     {
-        Vector3 moviment = puntRecorregut.position - transform.position;
-        Vector2 direccio = new Vector2(moviment.x, moviment.y);
-        gestorAnimacionsPersonatge.ActualitzarAnimacio(direccio);
+        Vector3 moviment = puntRecorregut.position - transform.position; // Es calcula la direcció del moviment
+        Vector2 direccio = new Vector2(moviment.x, moviment.y); // Es converteix la direcció a un vector 2D, perquè el personatge és 2D i no li cal la direcció Z
+        gestorAnimacionsPersonatge.ActualitzarAnimacio(direccio); // Es passa la direcció a l'animador
+    }
+
+    private void CrearMissatge()
+    {
+        GameObject missatge = Instantiate(prefabMissatge, transform.position, Quaternion.identity); // Es crea un missatge
+        MissatgeHabitant missatgeHabitant = missatge.GetComponentInChildren<MissatgeHabitant>(); // Es busca el codi del missatge
+        missatgeHabitant.InicialitzarHabitant(textMissatge, transform, margeHoritzontalMissatge, margeVerticalMissatge); // Es passa el text, el personatge de referència i els marges del missatge
     }
 }
