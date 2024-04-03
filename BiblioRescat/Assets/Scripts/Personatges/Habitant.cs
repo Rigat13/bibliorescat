@@ -12,6 +12,7 @@ public class Habitant : MonoBehaviour
 
     [Header("Missatge")]
     public GameObject prefabMissatge;
+    private GameObject missatge;
     public string textMissatge;
     public float margeVerticalMissatge = 2f;
     public float margeHoritzontalMissatge = 0f;
@@ -59,8 +60,23 @@ public class Habitant : MonoBehaviour
 
     private void CrearMissatge()
     {
-        GameObject missatge = Instantiate(prefabMissatge, transform.position, Quaternion.identity); // Es crea un missatge
+        missatge = Instantiate(prefabMissatge, transform.position, Quaternion.identity); // Es crea un missatge
         MissatgeHabitant missatgeHabitant = missatge.GetComponentInChildren<MissatgeHabitant>(); // Es busca el codi del missatge
         missatgeHabitant.InicialitzarHabitant(textMissatge, transform, margeHoritzontalMissatge, margeVerticalMissatge); // Es passa el text, el personatge de referència i els marges del missatge
+        missatge.SetActive(false); // Es desactiva el missatge al principi: només es mostrarà quan el jugador estigui a prop de l'habitant
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Jugador")) { // Si el jugador s'apropa a l'habitant
+            missatge.SetActive(true); // Es mostra el missatge
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Jugador")) { // Si el jugador s'allunya de l'habitant
+            missatge.SetActive(false); // Es deixa de mostrar el missatge
+        }
     }
 }
