@@ -10,7 +10,7 @@ public class Llibre : ObjecteInteractiu
 
     public override void Recollir()
     {
-        comptador.AfegirLlibre();
+        comptador.AfegirLlibre(); // Els llibres es recullen d'aquesta manera, sumant al comptador de llibres
         Destroy(gameObject);
     }
 }
