@@ -31,7 +31,7 @@ public class Habitant : MonoBehaviour
                 while (transform.position != puntsRecorregut[i].position) { // 2. Mentre l'habitant no ha arribat al punt
                     MoureHabitant(puntsRecorregut[i]); // 3. Es mou l'habitant cap al punt
                     AnimarHabitant(puntsRecorregut[i]);
-                    yield return new WaitForSeconds(velocitat); // 4. S'espera un temps
+                    yield return null; // 4. S'espera al següent fotograma
                 } // 5. Es torna al punt 2 fins que l'habitant arriba al punt
             } // 6. Es torna al punt 1 fins que s'han recorregut tots els punts
 
@@ -39,7 +39,8 @@ public class Habitant : MonoBehaviour
             for (int i = puntsRecorregut.Length-1; i > 0; i--) { // 1. Es busca l'últim punt del recorregut
                  while (transform.position != puntsRecorregut[i].position) { // 2. Mentre l'habitant no ha arribat al punt
                       MoureHabitant(puntsRecorregut[i]); // 3. Es mou l'habitant cap al punt
-                      yield return new WaitForSeconds(velocitat); // 4. S'espera un temps
+                      AnimarHabitant(puntsRecorregut[i]);
+                      yield return null; // 4. S'espera al següent fotograma
                  } // 5. Es torna al punt 2 fins que l'habitant arriba al punt
             } // 6. Es torna al punt 1 fins que s'han recorregut tots els punts
         }
