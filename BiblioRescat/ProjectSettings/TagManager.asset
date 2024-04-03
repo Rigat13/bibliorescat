@@ -43,3 +43,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Fons
+    uniqueID: 3779245767
+    locked: 0
+  - name: Davant
+    uniqueID: 4215362509
+    locked: 0
