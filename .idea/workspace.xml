@@ -7,6 +7,15 @@
     <list default="true" id="a2dab203-95cf-4a89-9790-fbafac793cb4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiblioRescat/Assets/Fonts/Montserrat/Montserrat-Black SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/Assets/Fonts/Montserrat/Montserrat-Black SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiblioRescat/Assets/Scenes/MenuInicial.unity" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/Assets/Scenes/MenuInicial.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiblioRescat/Assets/Scenes/Poble.unity" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/Assets/Scenes/Poble.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiblioRescat/Assets/Scripts/GestioJoc/GestorJoc.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/Assets/Scripts/GestioJoc/GestorJoc.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiblioRescat/Assets/Scripts/Objectes/Llibre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/Assets/Scripts/Objectes/Llibre.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiblioRescat/Assets/Scripts/Objectes/TaulerMissio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/Assets/Scripts/Objectes/TaulerMissio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiblioRescat/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiblioRescat/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiblioRescat/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +104,9 @@
       <workItem from="1712189896813" duration="230000" />
       <workItem from="1712191449434" duration="81000" />
       <workItem from="1712191827630" duration="28000" />
+      <workItem from="1712209272241" duration="7000" />
+      <workItem from="1712209317536" duration="12000" />
+      <workItem from="1712209364339" duration="153000" />
     </task>
     <servers />
   </component>

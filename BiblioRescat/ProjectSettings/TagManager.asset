@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Jugador
   - Comptador
+  - TextNivell
   layers:
   - Default
   - TransparentFX

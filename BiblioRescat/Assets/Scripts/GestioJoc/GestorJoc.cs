@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-
+using TMPro;
 public class GestorJoc : MonoBehaviour
 {
     public static GestorJoc instancia;
@@ -12,6 +12,7 @@ public class GestorJoc : MonoBehaviour
     [SerializeField] private BarraProgres barra;
     private List<AsyncOperation> escenesCarregant = new List<AsyncOperation>();
     public float duracioFalsaCarrega = 1f;
+    private int numeroNivellActual = 0;
 
     private void Awake()
     {
@@ -22,6 +23,7 @@ public class GestorJoc : MonoBehaviour
 
     public void IniciarCarregarPartida(IndexsEscena properaEscena)
     {
+        numeroNivellActual++;
         pantallaCarrega.gameObject.SetActive(true);
         CarregarPartida(properaEscena);
         StartCoroutine(FALSEJAT_ObtenirProgresCarregaEscenaIActivarEscena(properaEscena));
@@ -47,6 +49,7 @@ public class GestorJoc : MonoBehaviour
 
         pantallaCarrega.gameObject.SetActive(false);
         SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(((int)escenaActual)));
+        ModificarNumeroNivell();
     }
 
     private void ActualitzarProgres()
@@ -80,5 +83,16 @@ public class GestorJoc : MonoBehaviour
         }
         pantallaCarrega.gameObject.SetActive(false);
         SceneManager.SetActiveScene(SceneManager.GetSceneByBuildIndex(((int)escenaActual)));
+        ModificarNumeroNivell();
+    }
+
+    private void ModificarNumeroNivell()
+    {
+        // Busca el GameObject amb l'etiqueta "TextNivell" a l'escena que ha carregat i modifica el text amb el número de nivell actual
+        GameObject textNivell = GameObject.FindGameObjectWithTag("TextNivell");
+        if (textNivell != null)
+        {
+            textNivell.GetComponent<TMP_Text>().text = numeroNivellActual + "|";
+        }
     }
 }

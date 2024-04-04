@@ -3,6 +3,7 @@ using UnityEngine;
 public class Llibre : ObjecteInteractiu
 {
     Comptador comptador;
+    public AudioSource so;
     void Start()
     {
         comptador = GameObject.FindWithTag("Comptador").GetComponent<Comptador>();
@@ -11,6 +12,7 @@ public class Llibre : ObjecteInteractiu
     public override void Recollir()
     {
         comptador.AfegirLlibre(); // Els llibres es recullen d'aquesta manera, sumant al comptador de llibres
-        Destroy(gameObject);
+        so.Play(); // Es reprodueix un so
+        Destroy(gameObject); // Es destrueix l'objecte
     }
 }

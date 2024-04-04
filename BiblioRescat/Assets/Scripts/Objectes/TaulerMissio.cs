@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+[RequireComponent(typeof(IniciCarregaEscena))]
 public class TaulerMissio : MonoBehaviour
 {
     [Header("Objectiu")]
@@ -70,6 +71,6 @@ public class TaulerMissio : MonoBehaviour
 
     public void ConfirmarViatge() {
         TancarPanellMissioComplerta();
-        Debug.Log("Viatge confirmat!");
+        GetComponent<IniciCarregaEscena>().CarregarProperaEscena();
     }
 }
