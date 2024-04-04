@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2dab203-95cf-4a89-9790-fbafac793cb4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiblioRescat/Assets/Animacions/Objectes/Llibre.anim" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/Assets/Animacions/Objectes/Llibre.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BiblioRescat/Assets/Fonts/Montserrat/Montserrat-Black SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/Assets/Fonts/Montserrat/Montserrat-Black SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BiblioRescat/Assets/Scripts/Personatges/Habitant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/Assets/Scripts/Personatges/Habitant.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BiblioRescat/Assets/Sprites/Objectes/llibre.png" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/Assets/Sprites/Objectes/llibre.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BiblioRescat/Assets/Sprites/Personatges/sprites_personatge.png" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/Assets/Sprites/Personatges/sprites_personatge.png" afterDir="false" />
@@ -100,6 +104,7 @@
       <workItem from="1712209317536" duration="12000" />
       <workItem from="1712209364339" duration="153000" />
       <workItem from="1712224719636" duration="12000" />
+      <workItem from="1712225276606" duration="588000" />
     </task>
     <servers />
   </component>
