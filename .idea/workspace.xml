@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2dab203-95cf-4a89-9790-fbafac793cb4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/BiblioRescat/Assets/Prefabs/Canvas.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/Assets/Prefabs/Canvas.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BiblioRescat/Assets/Scripts/Objectes/Comptador.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BiblioRescat/Assets/Scripts/Objectes/Comptador.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,6 +92,9 @@
       <workItem from="1712061844925" duration="2092000" />
       <workItem from="1712131691505" duration="8040000" />
       <workItem from="1712171705659" duration="272000" />
+      <workItem from="1712189896813" duration="230000" />
+      <workItem from="1712191449434" duration="81000" />
+      <workItem from="1712191827630" duration="28000" />
     </task>
     <servers />
   </component>
