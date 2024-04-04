@@ -4,11 +4,7 @@ using UnityEngine;
 [RequireComponent(typeof(Animator))]
 public class GestorAnimacionsPersonatge : MonoBehaviour
 {
-    private Animator animador; // Gestiona les animacions del personatge
-    void Start() // Mètode que s'executa al principi de tot
-    {
-        animador = GetComponent<Animator>(); // Aquí busquem l'animador que té el mateix personatge que té aquest SpritesPersonatge
-    }
+    public Animator animador; // Gestiona les animacions del personatge
 
     public void ActualitzarAnimacio(Vector2 direction)
     {
