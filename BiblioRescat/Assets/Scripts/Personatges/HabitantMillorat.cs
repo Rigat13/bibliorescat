@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Habitant : MonoBehaviour
+public class HabitantMillorat : MonoBehaviour
 {
     [Header("Moviment")]
     public float velocitat = 0.1f;
@@ -15,7 +15,10 @@ public class Habitant : MonoBehaviour
     public string textMissatge;
     public float margeVerticalMissatge = 2f;
     public float margeHoritzontalMissatge = 0f;
+    
 
+    private bool aturat = false; // ----------------------------------------------------------------------------------------------- AFEGIT
+    private int puntActual = 0; // ------------------------------------------------------------------------------------------------ AFEGIT
 
     void Start()
     {
@@ -27,8 +30,10 @@ public class Habitant : MonoBehaviour
     {
         while (true) {
             // PRIMER ES FA EL RECORREGUT
-            for (int i = 0; i < puntsRecorregut.Length; i++) { // 1. Es busca el primer punt del recorregut
+            for (int i = puntActual; i < puntsRecorregut.Length; i++) { // ------------------------------------------------------ MODIFICAT
+                puntActual = i; // ------------------------------------------------------------------------------------------------ AFEGIT
                 while (transform.position != puntsRecorregut[i].position) { // 2. Mentre l'habitant no ha arribat al punt
+                    if (aturat) yield break; // ----------------------------------------------------------------------------------- AFEGIT
                     MoureHabitant(puntsRecorregut[i]); // 3. Es mou l'habitant cap al punt
                     AnimarHabitant(puntsRecorregut[i]);
                     yield return null; // 4. S'espera al següent fotograma
@@ -37,7 +42,9 @@ public class Habitant : MonoBehaviour
 
             // DESPRÉS ES FA EL RECORREGUT DE TORNADA, AL REVÉS
             for (int i = puntsRecorregut.Length-1; i > 0; i--) { // 1. Es busca l'últim punt del recorregut
+                puntActual = i; // ----------------------------------------------------------------------------------------------- AFEGIT
                 while (transform.position != puntsRecorregut[i].position) { // 2. Mentre l'habitant no ha arribat al punt
+                    if (aturat) yield break; // ---------------------------------------------------------------------------------- AFEGIT
                     MoureHabitant(puntsRecorregut[i]); // 3. Es mou l'habitant cap al punt
                     AnimarHabitant(puntsRecorregut[i]);
                     yield return null; // 4. S'espera al següent fotograma
@@ -71,6 +78,7 @@ public class Habitant : MonoBehaviour
     {
         if (other.CompareTag("Jugador")) { // Si el jugador s'apropa a l'habitant
             missatge.SetActive(true); // Es mostra el missatge
+            aturat = true; // ----------------------------------------------------------------------------------------------------- AFEGIT
         }
     }
 
@@ -78,6 +86,8 @@ public class Habitant : MonoBehaviour
     {
         if (other.CompareTag("Jugador")) { // Si el jugador s'allunya de l'habitant
             missatge.SetActive(false); // Es deixa de mostrar el missatge
+            aturat = false; // --------------------------------------------------------------------------------------------------- AFEGIT
+            StartCoroutine(PassejarHabitant());
         }
     }
 }
