@@ -1,11 +1,11 @@
 # BiblioRescat
 Exemple d'un Videojoc 2D en vista d'ocell desenvolupat a Unity | Troba els llibres i rescata les biblioteques!
 
+## [![Curs de Videojocs amb Unity - Primers passos](https://img.youtube.com/vi/2okldbNW5dQ/0.jpg)](https://www.youtube.com/watch?v=2okldbNW5dQ)
 ## Introducció i tutorial: [Diapositives](https://docs.google.com/presentation/d/1IDp5Z7x30CZvifh7yzajHXcR1uoSTFGnZoaThQnQMRo/edit?usp=sharing)
 ## Document de disseny (GDD): [GDD](documents/GDD.md)
 
 Xnergic, TecnoCampus Mataró | Biblioteques del Maresme | Carles Rigat Almansa - 2024
-
 
 ![imatge](https://github.com/Rigat13/bibliorescat/assets/60795194/6c5dd81b-6934-4b6e-8274-1dc8e7a0259a)
 ![imatge](https://github.com/Rigat13/bibliorescat/assets/60795194/8256e83e-4129-4e49-8398-42ef8911f665)
