@@ -15,6 +15,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Poble.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/BibliotecaMSerraMoret.unity
-    guid: f6397965f44df5344838431413d635b0
+    path: Assets/Scenes/BMSerraMoret_PinedaDeMar.unity
+    guid: 39fb1fbd224d92d48a72611d8a4ff00b
+  - enabled: 1
+    path: Assets/Scenes/BPompeuFabra_Mataro.unity
+    guid: 60d8eb00ebf4f3749830372bf6d536f4
+  - enabled: 1
+    path: Assets/Scenes/BPGualCanet.unity
+    guid: 52fb298d49e55ba4e84129610f19652f
   m_configObjects: {}
