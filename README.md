@@ -13,5 +13,6 @@ Xnergic, TecnoCampus Mataró | Biblioteques del Maresme | Carles Rigat Almansa -
 ![imatge](https://github.com/Rigat13/bibliorescat/assets/60795194/27b1271b-772a-47cf-b91b-e4981b836ec2)
 ![imatge](https://github.com/Rigat13/bibliorescat/assets/60795194/8f6d8217-2c57-43f9-b4e4-e54bf4698e40)
 ![imatge](https://github.com/Rigat13/bibliorescat/assets/60795194/f1867c9c-d265-42c6-846a-90cddab839e9)
-![imatge](https://github.com/Rigat13/bibliorescat/assets/60795194/04520b5d-2894-4dfa-a032-4104861590c7)
-![imatge](https://github.com/Rigat13/bibliorescat/assets/60795194/6ada1a06-081e-4a3e-b4fb-7f14750ba0e2)
+![imatge](https://github.com/Rigat13/bibliorescat/assets/60795194/d38e8d1a-bdfb-4044-b4cf-361dd8e97813)
+![imatge](https://github.com/Rigat13/bibliorescat/assets/60795194/3afa594b-36b9-4b53-b5fd-09e0b7f4911f)
+![imatge](https://github.com/Rigat13/bibliorescat/assets/60795194/02a22753-f875-43f8-8293-58d57c2b44c3)
