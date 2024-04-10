@@ -1,6 +1,7 @@
 # BiblioRescat
 Exemple d'un Videojoc 2D en vista d'ocell desenvolupat a Unity | Troba els llibres i rescata les biblioteques!
 
+## Vídeo de primers passos: 
 ## [![Curs de Videojocs amb Unity - Primers passos](https://img.youtube.com/vi/2okldbNW5dQ/0.jpg)](https://www.youtube.com/watch?v=2okldbNW5dQ)
 ## Introducció i tutorial: [Diapositives](https://docs.google.com/presentation/d/1IDp5Z7x30CZvifh7yzajHXcR1uoSTFGnZoaThQnQMRo/edit?usp=sharing)
 ## Document de disseny (GDD): [GDD](documents/GDD.md)
