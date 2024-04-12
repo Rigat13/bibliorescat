@@ -3,6 +3,8 @@ Exemple d'un Videojoc 2D en vista d'ocell desenvolupat a Unity | Troba els llibr
 
 ## Vídeo de primers passos: 
 ## [![Curs de Videojocs amb Unity - Primers passos](https://img.youtube.com/vi/2okldbNW5dQ/0.jpg)](https://www.youtube.com/watch?v=2okldbNW5dQ)
+## Vídeo de pantalla de victòria i menú de selecció de nivells: 
+## [![Curs de Videojocs amb Unity - Pantalla de Victòria i Menú de Selecció de Nivells](https://img.youtube.com/vi/JLPdS5ezgJc/0.jpg)](https://www.youtube.com/watch?v=JLPdS5ezgJc)
 ## Introducció i tutorial: [Diapositives](https://docs.google.com/presentation/d/1IDp5Z7x30CZvifh7yzajHXcR1uoSTFGnZoaThQnQMRo/edit?usp=sharing)
 ## Document de disseny (GDD): [GDD](documents/GDD.md)
 
