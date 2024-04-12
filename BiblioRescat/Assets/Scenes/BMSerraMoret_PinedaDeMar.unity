@@ -314,7 +314,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Has recuperat els llibres \ni salvat la biblioteca!"
+  m_text: 'Has salvat totes les biblioteques!
+
+    Felicitats!!!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a268d32965e1a848844b7bae853c13c, type: 2}
   m_sharedMaterial: {fileID: 1440659255945811152, guid: 8a268d32965e1a848844b7bae853c13c, type: 2}
@@ -448,7 +450,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Missi\xF3 complerta!"
+  m_text: Joc complert!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6498890c6f5640f4aa566402f25ae8a0, type: 2}
   m_sharedMaterial: {fileID: -6307199711081864098, guid: 6498890c6f5640f4aa566402f25ae8a0, type: 2}
@@ -947,7 +949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0.98951167, b: 0.8726415, a: 1}
+  m_Color: {r: 1, g: 0.75, b: 0.91994095, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1576,7 +1578,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "S\xED, viatjo!"
+  m_text: "S\xED, acabem!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a268d32965e1a848844b7bae853c13c, type: 2}
   m_sharedMaterial: {fileID: 1440659255945811152, guid: 8a268d32965e1a848844b7bae853c13c, type: 2}
@@ -2275,7 +2277,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Vols viatjar a la seg\xFCent biblioteca?"
+  m_text: Vols acabar la partida?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8a268d32965e1a848844b7bae853c13c, type: 2}
   m_sharedMaterial: {fileID: 1440659255945811152, guid: 8a268d32965e1a848844b7bae853c13c, type: 2}
@@ -3996,7 +3998,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 413cfe52396578e419758ad323f23238, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  properaEscena: 4
+  properaEscena: 1
   audioBoto: {fileID: 2095898703}
 --- !u!82 &2095898703
 AudioSource:
