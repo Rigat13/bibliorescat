@@ -25554,7 +25554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 413cfe52396578e419758ad323f23238, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  properaEscena: 5
+  properaEscena: 2
   audioBoto: {fileID: 2095898703}
 --- !u!82 &2095898703
 AudioSource:
