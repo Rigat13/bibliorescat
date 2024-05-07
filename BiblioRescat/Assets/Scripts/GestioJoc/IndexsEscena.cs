@@ -8,5 +8,8 @@ public enum IndexsEscena
     POBLE = 2,
     M_SERRA_MORET = 3,
     POMPEU_FABRA = 4,
-    PARE_GUAL = 5
+    PARE_GUAL = 5,
+    POPULAR = 6,
+    FIDEL_FITA = 7,
+    ANTONI_COMAS = 8,
 }
